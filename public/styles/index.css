@@ -1,0 +1,72 @@
+/* Used in index.html and recipes.html */
+
+.banner {
+    background-color: var(--color-light-pink);
+    border-radius: 30px;
+
+    display: flex;
+
+    margin-bottom: 30px;
+}
+
+.banner div {
+    max-width: 320px;
+    margin: auto;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 32px;
+
+    padding-bottom: 10px;
+}
+
+.banner h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    opacity: 0.7;
+}
+
+.banner img {
+    padding: 66px 100px 0 180px;
+}
+
+#title h2 {
+    font-weight: 700;
+    font-size: 24px;
+
+    padding: 20px 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+
+.card h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-gray);
+
+    padding: 5px 0;
+}

@@ -1,0 +1,28 @@
+header {
+    display: flex;
+}
+
+header img {
+    padding: 30px 115px 30px 0;
+}
+
+.menu {
+    padding: 32px 0;
+
+    display: flex;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu a {
+    padding: 0 15px;
+
+    text-decoration: initial;
+    color: black;
+}
+
+.menu a:hover {
+    color: var(--color-light-gray);
+    transition: 200ms;
+}
